@@ -386,6 +386,31 @@ section .title::after{
     width: 70%;
 }
 
+/***update progress bar */
+.progress-in{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    border-radius: 4px;
+    background-color: var(--skin-color);
+}
+.skill-percent{
+    position: absolute;
+    right: 0;
+   
+    top: -40px;
+    font-weight: 400;
+    line-height: 40px;
+}
+.progress{
+    background-color: var(--bg-black-50);
+    height: 7px;
+    border-radius: 4px;
+    width: 100%;
+    position: relative;
+}
+
 /* teams section styling */
 .teams .title::after{
     content: "";
