@@ -1,6 +1,25 @@
 /*  import google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
 
+.project-list {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .project-list li {
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+    line-height: 1.5;
+  }
+  
+  .project-list li:before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #333;
+  }
+
 :root {
     --bg-black-900: #f2f2fc;
     --bg-black-100: #fdf9ff;
