@@ -5,7 +5,17 @@
     list-style-type: none;
     padding-left: 0;
   }
-  
+.socials-container {
+    display: flex;
+    justify-content: left;
+    margin-top: 1rem;
+    gap: 1rem;
+    background-color: #b3b3b3;
+}
+.icon {
+    cursor: pointer;
+    height: 3rem;
+}
   .project-list li {
     margin-bottom: 10px;
     padding-left: 20px;
