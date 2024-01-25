@@ -15,6 +15,30 @@ function myFunction() {
   }
 
 
+// for publication abstract 
+
+document.addEventListener("DOMContentLoaded", function () {
+    const publications = document.querySelectorAll(".teams li");
+
+    publications.forEach((publication) => {
+        publication.addEventListener("mouseenter", function () {
+            const abstract = publication.querySelector(".abstract");
+            if (abstract) {
+                abstract.style.display = "block";
+            }
+        });
+
+        publication.addEventListener("mouseleave", function () {
+            const abstract = publication.querySelector(".abstract");
+            if (abstract) {
+                abstract.style.display = "none";
+            }
+        });
+    });
+});
+
+
+
 $(document).ready(function(){
     $(window).scroll(function(){
         // sticky navbar on scroll script
