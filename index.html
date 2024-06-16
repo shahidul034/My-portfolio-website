@@ -108,16 +108,14 @@
 						out of 121.
 						My research endeavors primarily revolve around the domains of Machine Learning and
 						Natural
-						Language Processing. My scholarly contributions include two published journal
+						Language Processing. My scholarly contributions include several published journal
 						article as well as
-						a substantial body of work presented through seven conference papers. Additionally,
+						a substantial body of work presented through conference papers. Additionally,
 						I currently
-						have three under-review journals (Data in Brief,
+						have several under-review journals (Data in Brief,
 						Engineering Applications of Artificial Intelligence journal), and I am actively
 						engaged in
-						ongoing research initiatives. I recently worked in the IBEX super computing center
-						in KAUST and
-						trained Hajj LLM using Zephyr.</p>
+						ongoing research initiatives.</p>
 					<a href="about.html">more</a>
 					<!-- <a href="https://drive.google.com/file/d/1ex13ekrevnSuxiMsPGWuCkyaL15XNx_y/view?usp=sharing">Download CV</a> -->
 				</div>
@@ -134,10 +132,10 @@
 						<i class="fas fa-book-open"></i>
 						<div class="text">Machine Learning</div>
 						<ul class="project-list">
-							<li>Fake Currency Note Detection using CNN</li>
-							<li>COVID-19 Severity Prediction using deep learning</li>
-							<li>Agriculture weather Prediction in Bangladesh using Bi-LSTM</li>
-							<li>Brain Tumor Detection using CNN</li>
+							<li>Convolutional Neural Networks</li>
+							<li>Time series analysis</li>
+							<li>Multimodal(text+image)</li>
+
 						</ul>
 					</div>
 				</div>
@@ -146,19 +144,16 @@
 						<i class="fas fa-book-reader"></i>
 						<div class="text">Natural Language Processing</div>
 						<ul class="project-list">
-							<li>Conversational PDF Interaction with LangChain: Leveraging Mistral, Llama-2, and Zephyr
-								LLM Models</li>
+							<li>LLM</li>
+							<li>Transformer</li>
 							<li>Bangla stemmer</li>
-							<li>Bangla text generation using GPT-2</li>
-							<li>Bangla text summarization using mT5</li>
-							<li>Bangla keyboard error correction using MarianMT</li>
-							<li>Bangla word to vector</li>
-							<li>Rule-based Bangla chatbot</li>
-							<li>Sign language generation using seq2seq model</li>
+							<li>Text generation</li>
+							<li>Text summarization</li>
+							<li>Conversational question answering</li>
 						</ul>
 					</div>
 				</div>
-				<div class="card">
+				<!-- <div class="card">
 					<div class="box">
 						<i class="fas fa-microscope"></i>
 						<div class="text">Image Processing</div>
@@ -166,7 +161,7 @@
 							<li>Human abnormality detection from CC camera using CNN</li>
 						</ul>
 					</div>
-				</div>
+				</div> -->
 			</div>
 		</div>
 		</div>
@@ -458,6 +453,54 @@
 		<div class="max-width">
 			<h2 class="title">Under Review</h2>
 			<ol>
+				<li><b>BCoQA: Benchmark and Resources for Bangla Context-based Conversational Question
+						Answering(Submitted to EMNLP 2024)</b></li>
+				<ul>
+					<li><i style="color: cadetblue;">Developing a Bangla Context-based Conversational Question Answering
+							(CCQA) system faces challenges like limited domain-specific data, poor translation methods,
+							and a lack of pretrained language models.
+							To tackle these issues, this work constructs a robust Bangla CCQA dataset using
+							quality-controlled machine translation and large language model-based augmentation of
+							existing English CCQA datasets.
+							The dataset is then divided into training, validation, and test splits. Various
+							sequence-to-sequence models are fine-tuned and evaluated using the train and test splits,
+							with conversation history included in the input prompts to maintain context.
+						</i></li>
+				</ul>
+				<br>
+				<li><b>Bangla news article dataset(Submitted to Data in Brief)</b></li>
+				<ul>
+					<li><i style="color: cadetblue;">In this research, we present an updated standard Bangla dataset
+							based on gathered Bangla news articles.
+							In total, more than 1.9 million articles from nine Bangla news websites were gathered; the
+							selection process was led by a number of categories, including sports, economy, politics,
+							local news, tech, tourism, entertainment, education, health, the arts, and many more.
+							The dataset per newspaper contains varying attributes, such as title, content, time, tags,
+							meta, category, etc. This dataset will enable data scientists to investigate and assess
+							theories related to Bangla natural language processing.
+							Furthermore, there is a greater chance that the dataset will be utilized for domain-specific
+							large language models in the context of Bangladesh, and it may be used to develop deep
+							learning and machine learning models that categorize articles according to subjects.
+						</i></li>
+				</ul>
+				<br>
+				<li><b>LLM based QA chatbot builder: A generative AI-based chatbot for question answering(Submitted to
+						softwareX)</b></li>
+				<ul>
+					<li><i style="color: cadetblue;">This software describes the development of a web application called
+							the LLM QA Builder, designed to streamline the creation of LLM-based interactive chatbots
+							for organizational information retrieval.
+							The application integrates various development phases including data collection and
+							preprocessing, LLM fine-tuning, testing, inference, and chat interface development. It
+							supports fine-tuning multiple LLMs such as Zephyr, Mistral, Llama-3, Phi, Flan-T5, and
+							user-provided models, with enhanced retrieval capabilities via retrieval-augmented
+							generation (RAG). It also includes an automatic web crawling RAG data scraper and a human
+							evaluation feature for model quality assessment.
+							The system's capabilities are demonstrated through a university information chatbot, with
+							comparative analysis of different LLMs using a benchmark crowd-sourced dataset.
+						</i></li>
+				</ul>
+				<br>
 				<li><b>Agricultural Recommendation System based on Multivariate Weather Forecasting Model(Submitted to
 						Engineering Applications of Artificial Intelligence journal)<a
 							href="https://arxiv.org/abs/2401.11410" style="color: #03bafc;"> (PRE-PRINT)</a></b></li>
@@ -471,6 +514,7 @@
 							It also alerts farmers about extreme weather conditions and provides knowledge-based crop
 							recommendations for flood and drought-prone areas.</i></li>
 				</ul>
+
 				<br>
 				<li><b>A Suffix Independent Algorithm for Stemming Bangla Words using Finite State Transducer(Submitted
 						to
@@ -485,6 +529,23 @@
 							96.58% detection accuracy and 96.34% stemming accuracy.
 							The proposed scheme outperforms existing methods and demonstrates effectiveness through
 							experiments.</i></li>
+				</ul>
+				<br>
+				<li><b>Suggesting Bengali words using Masked Language Model</b></li>
+				<ul>
+					<li><i style="color: cadetblue;">This study explores Bangla word suggestion in texts using a
+							fine-tuned Bangla-BERT model with Masked Language Modeling (MLM).
+							While transformer-based models like BERT have revolutionized natural language processing
+							(NLP), the availability of task-specific datasets, especially for word-suggesting in Bangla,
+							is limited.
+							This research addresses this gap by employing MLM to predict Bangla words.
+							Sub-word tokenization enhances the model's ability to handle unknown words.
+							Unlike existing pretrained BanglaBERT model that uses word-piece masking, we experiment with
+							dynamic whole-word masking algorithms.
+							Our research aims to analyze the performance of the fine-tuned BanglaBERT model under
+							different masking strategies and compare results to the traditional BanglaBERT approach.
+
+						</i></li>
 				</ul>
 				<br>
 				<li><b>Detecting AI-Generated Assignments in Educational Evaluation: A Transformer-Based Approach</b>
@@ -508,87 +569,11 @@
 		<div class="max-width">
 			<h2 class="title">Ongoing Research</h2>
 			<ol>
-				<li><b>BConvQA: A Bangla Conversational Question-Answering Model Using Transformer-based
-						Architecture</b></li>
-				<ul>
-					<li>
-						<i style="color: cadetblue;">Conversational interactions, integral to
-							human communication, pose a challenge for virtual assistants due to contextual
-							understanding limitations.
-							Designing an effective Bangla Context-based Conversational Question Answering (CCQA)
-							system faces hurdles like data scarcity, translation quality, and model availability.
-							Our approach involved translating CoQA and QuAC datasets into Bangla using Google API
-							and BanglaNMT, enhanced with LaBSE model. We utilized sequence-to-sequence models,
-							particularly BanglaT5, fine-tuned on our BCoQA dataset through a structured pipeline.
-							Fine-tuning on Squad_bn dataset before BCoQA significantly improved BanglaT5's
-							performance. Quantitative benchmarks showed its superiority in Exact Match and F1
-							scores. Qualitative analysis affirmed its competency in maintaining conversation
-							context. In conclusion, our BanglaT5-based BConvQA system exhibits promising
-							performance, laying a foundation for Bangla question-answering applications.
-							Further research is needed to address limitations in handling out-of-context queries and
-							deepening language understanding.</i>
-					</li>
-				</ul>
 				<br>
-				<li><b>Suggesting Bengali words using Masked Language Model</b></li>
-				<ul>
-					<li>
-						<i style="color: cadetblue;">This study explores Bangla word suggestion in texts using a
-							fine-tuned Bangla-BERT model with Masked Language Modeling (MLM).
-							While transformer-based models like BERT have revolutionized natural language processing
-							(NLP), the availability of task-specific datasets, especially for word-suggesting in Bangla,
-							is limited.
-							This research addresses this gap by employing MLM to predict Bangla words. Sub-word
-							tokenization enhances the model's ability to handle unknown words. Unlike existing
-							pretrained BanglaBERT model that uses word-piece masking, we experiment with dynamic
-							whole-word masking algorithms.
-							Our research aims to analyze the performance of the fine-tuned BanglaBERT model under
-							different masking strategies and compare results to the traditional BanglaBERT approach.</i>
-					</li>
-				</ul>
-				<br>
-				<li><b>Correction of Bangla sentences with Guruchondali Dosh</b></li>
-				<ul>
-					<li><i style="color: cadetblue;">This research tackles the prevalent issue of Guruchondali Dosh, the
-							inadvertent mixing of
-							Shadhu and Cholito styles in Bangla language documents.
-							With approximately 250-300 million Bangla speakers globally, the digital representation of
-							the language faces challenges, including the lack of tools to identify Guruchondali Dosh.
-							The research presents an algorithm to detect the writing style in a Bangla document and
-							correct Guruchondali Dosh errors, primarily favoring the widely used Cholito style.
-							The proposed solution combines rule-based techniques and machine learning with transformers,
-							aiming to enhance the overall quality of Bangla language content in the digital space.</i>
-					</li>
-				</ul>
-				<br>
-				<li><b>Automatic Text Summarization in Bengali: A Study on the Effectiveness of the mT5 Transformer
-						Model</b></li>
-				<ul>
-					<li><i style="color: cadetblue;">Our research introduces a Bangla text-generation model using the
-							mT5 transformer, fine-tuned
-							on a newly created Bangla Summarization Dataset (BSD).
-							This model aims to produce concise and fluent summaries while preserving key
-							information.</i></li>
-				</ul>
-				<br>
-				<li><b>Building a Bangla Text Summarization Dataset for Transformer Models: A Comprehensive Guide</b>
+				<li><b>Comparing Prompt Based and Standard Fine Tuning for Bangla Text Classification</b></li>
 				</li>
-				<ul>
-					<li><i style="color: cadetblue;">
-							The research on Bangla text summarization faced challenges due to the rarity of datasets.
-							Initially, data collection was manual from various websites, which proved time-consuming.
-							To streamline the process, a Python-based scraper was developed and deployed on
-							https://www.kalerkantho.com/, a Bengali newspaper website. The scraper automated data
-							collection, and the information was stored in JSON files, with each file termed as a
-							"chunk." In total, eight datasets were created.
-							The entries in the dataset consist of content (text for summarization) and title (summary).
-						</i></li>
-				</ul>
-				<br>
 				<li><b>Epilepsy Classification Using Multimodal Analysis of EEG Signals and Video Data</b></li>
-				<br>
-				<li><b>Bangla token classification using transformer model</b></li>
-				</li>
+
 			</ol>
 		</div>
 	</section>
@@ -599,7 +584,7 @@
 			<ol>
 				<li><b>LLM based QA chatbot builder</b>
 					<a href="https://github.com/shahidul034/LLM-based-QA-chatbot-builder
-						target="_blank" style="color: #03bafc;">[Github Link]</a>
+						target=" _blank" style="color: #03bafc;">[Github Link]</a>
 					<ul>
 						<li><i>Python, Large Language Model(LLM), Langchain,Gradio</i></li>
 					</ul>
@@ -748,8 +733,8 @@
 					<div class="bars">
 						<span>Pytorch,Tensorflow</span>
 						<div class="progress">
-							<div class="progress-in" style="width: 80%;"></div>
-							<div class="skill-percent"><span>70%</span></div>
+							<div class="progress-in" style="width: 90%;"></div>
+							<div class="skill-percent"><span>90%</span></div>
 						</div>
 					</div>
 					<div class="bars">
@@ -807,9 +792,16 @@
 							<div class="skill-percent"><span>60%</span></div>
 						</div>
 					</div>
+					<div class="bars">
+						<span>SQL</span>
+						<div class="progress">
+							<div class="progress-in" style="width: 90%;"></div>
+							<div class="skill-percent"><span>90%</span></div>
+						</div>
+					</div>
 
 					<div class="bars">
-						<span>SQL,MySQL,HTML,CSS</span>
+						<span>MySQL,HTML,CSS</span>
 						<div class="progress">
 							<div class="progress-in" style="width: 70%;"></div>
 							<div class="skill-percent"><span>70%</span></div>
