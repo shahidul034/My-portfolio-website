@@ -65,31 +65,45 @@
 	<!-- home section start -->
 	<section class="home" id="home">
 		<div class="max-width">
-			<div class="home-content">
-				<div class="text-1">Hello, My name is</div>
-				<div class="text-2">Md. Shahidul Salim</div>
-				<div class="text-1">Lecturer,CSE,KUET</div>
-				<div class="text-3">And I'm a <span class="typing"></span></div>
-				<!-- <a href="https://www.linkedin.com/in/shahidulshakib034/">My Linkedin profile</a>
-				<a href="https://github.com/shahidul034">My GitHub profile</a>
-				<a href="https://scholar.google.com/citations?user=Ob2Nw7oAAAAJ&hl">My Google scholar profile</a>
-				<a href="https://huggingface.co/shahidul034">My huggingface profile</a>
-				<a href="https://github.com/shahidul034/My-portfolio-website/blob/main/Md_Shahidul_Salim_CV.pdf">My CV</a> -->
-				<div class="socials-container">
-					<img src="images/cv2.png" alt="My CV" class="icon"
-						onclick="window.open('https://drive.google.com/file/d/1IzIQis46eN6g39lVLbM0oInmlGDLUP_D/view?usp=sharing', '_blank')" />
-					<img src="images/linkedin.png" alt="My LinkedIn Profile" class="icon"
-						onclick="window.open('https://www.linkedin.com/in/shahidulshakib034/', '_blank')" />
-					<img src="images/github2.png" alt="My Github Profile" class="icon"
-						onclick="window.open('https://github.com/shahidul034', '_blank')" />
-					<img src="images/scholar.png" alt="My Google Scholar Profile" class="icon"
-						onclick="window.open('https://scholar.google.com/citations?user=Ob2Nw7oAAAAJ&hl', '_blank')" />
-					<img src="images/huggingface.svg" alt="My Hugging Face Profile" class="icon"
-						onclick="window.open('https://huggingface.co/shahidul034', '_blank')" />
+			<div class="home-container">
+				<!-- Left Subsection: Profile Information -->
+				<div class="home-content profile">
+					<div class="text-1">Hello, My name is</div>
+					<div class="text-2">Md. Shahidul Salim</div>
+					<div class="text-1">Lecturer, CSE, KUET</div>
+					<div class="text-3">And I'm a <span class="typing"></span></div>
+					<div class="socials-container">
+						<img src="images/cv2.png" alt="My CV" class="icon"
+							onclick="window.open('https://drive.google.com/file/d/1IzIQis46eN6g39lVLbM0oInmlGDLUP_D/view?usp=sharing', '_blank')" />
+						<img src="images/linkedin.png" alt="My LinkedIn Profile" class="icon"
+							onclick="window.open('https://www.linkedin.com/in/shahidulshakib034/', '_blank')" />
+						<img src="images/github2.png" alt="My Github Profile" class="icon"
+							onclick="window.open('https://github.com/shahidul034', '_blank')" />
+						<img src="images/scholar.png" alt="My Google Scholar Profile" class="icon"
+							onclick="window.open('https://scholar.google.com/citations?user=Ob2Nw7oAAAAJ&hl', '_blank')" />
+						<img src="images/huggingface.svg" alt="My Hugging Face Profile" class="icon"
+							onclick="window.open('https://huggingface.co/shahidul034', '_blank')" />
+					</div>
+				</div>
+				<!-- Right Subsection: Notice Board -->
+				<div class="home-content notice-board">
+					<div class="text-1">Updates</div>
+					<br>
+					<ul class="notice-list">
+						<li>🌐<b>(02.08.2024) New research paper accepted(ICCA 2024):</b> Suggesting bengali words using masked language model
+						</li>
+						<li>🌐<b>(20.07.2024) New research paper accepted(Data in Brief):</b> Bangla news article dataset</li>
+						<li>🌐<b>(29.07.2024) Revision(EMNLP 2024): </b> BCoQA: Benchmark and Resources for Bangla Context-based
+							Conversational Question Answering</li>
+						<li>🌐<b>Ongoing research(EMNLP): </b> Comparing Prompt Based and Standard Fine Tuning for Bangla Text Classification</li>
+						<li>🌐<b>Ongoing research(SoftwareX): LLM based QA chatbot builder</b> (https://github.com/shahidul034/LLM-based-QA-chatbot-builder)</li>
+
+					</ul>
 				</div>
 			</div>
 		</div>
 	</section>
+
 	<!-- about section start  -->
 	<section class=" about" id="about">
 		<div class="max-width">
@@ -216,6 +230,25 @@
 								domain-specific
 								large language models in the context of Bangladesh, and it may be used to develop deep
 								learning and machine learning models that categorize articles according to subjects.
+							</i></p>
+					</div>
+				</li>
+				<br>
+				<li>Bose, D., & <b>Salim, M. S.</b> (2024). Suggesting bengali words using masked language model. In
+						3rd international conference on computing
+						advancements (icca).
+					<div class="abstract" style="display: none;">
+						<p> 🎯 <i style="color: cadetblue;">This study uses a fine-tuned Bangla-BERT model with Masked
+								Language Modeling (MLM) to explore Bangla word suggestions in texts. While
+								transformer-based models like BERT have revolutionized natural language processing
+								(NLP), the availability of task-specific data-sets, especially for word-suggesting in
+								Bangla, is limited. This research addresses this gap by employing MLM to predict Bangla
+								words. Unlike the existing pre-trained BanglaBERT model that uses word-piece masking, we
+								combine 'Whole Word Masking' and 'Dynamic Masking' algorithms for creating the synthetic
+								masked sentence for training, which increases the model's performance. Our research aims
+								to analyze the performance of the fine-tuned BanglaBERT model under different masking
+								strategies and compare results to the traditional BanglaBERT approach. Our suggested
+								approach and model show a better perplexity score of 5.75.
 							</i></p>
 					</div>
 				</li>

@@ -1,6 +1,52 @@
 /*  import google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
 
+
+/* notice board */
+.home-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; /* Adjust the space between the sections */
+}
+
+.home-content {
+    flex: 1;
+    padding: 20px;
+    color: #111;
+}
+
+
+.notice-board {
+    background-color: #f5f5f5; /* Light grey background for the notice board */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.notice-list {
+    list-style-type: none;
+    padding-left: 0;
+    color: #111;
+}
+
+.notice-list li {
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+.icon {
+    width: px; /* Adjust the size of the social icons */
+    height: 32px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.icon:hover {
+    opacity: 0.7;
+}
+
+/* notice board */
+
+
 .project-list {
     list-style-type: none;
     padding-left: 0;
@@ -150,7 +196,7 @@ section .title::after {
 }
 
 .navbar .logo a {
-    color: #fff;
+    color: #141313;
     font-size: 35px;
     font-weight: 600;
 }
@@ -171,7 +217,7 @@ section .title::after {
 
 .navbar .menu li a {
     display: block;
-    color: #fff;
+    color: #0a0a0a;
     font-size: 17px;
     font-weight: 500;
     margin-left: 25px;
