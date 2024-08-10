@@ -3,6 +3,14 @@
 
 
 /* notice board */
+.scrollspy-example h4 {
+    color: black;
+  }
+  .scrollspy-example p {
+    color: black;
+  }
+
+
 .home-container {
     display: flex;
     justify-content: space-between;
