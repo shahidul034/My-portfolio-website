@@ -1,0 +1,16 @@
+LLM based QA chatbot builder | https://github.com/shahidul034/LLM-based-QA-chatbot-builder | Python, Large Language Model(LLM), Langchain, Gradio
+Medical LLM Chat Bot - Chat with pdf using LLM(LlamaV2) langchain and streamlit | https://github.com/shahidul034/Chat-with-pdf-using-LLM-langchain-and-streamlit | Python, Large Language Model(LLM), Langchain, Streamlit
+KUET Chat Bot - Information about KUET | https://github.com/shahidul034/KUET-chatbot | Python, NLP
+Efficient Backlog Routine Generator - Building with Python and Flask for Streamlined Task Management | https://github.com/shahidul034/Backlog-routine-web-app | Python, Flask, First-fit-decreasing (FFD) bin packing algorithm
+Secure File Locker - Implementing RSA Encryption Algorithm with Python and Flask for Data Protection | https://github.com/shahidul034/File-locker-using-python | Security, Python, RSA encryption algorithm
+Daily Expense Management on iOS - A User-Centric Mobile Application for Efficient Financial Tracking | https://github.com/shahidul034/Daily-Expense-iOS | iOS, Xcode, Swift
+Anonymity-Preserving Post Web Application - Implementing Python and Flask for Secure and Confidential Content Sharing | https://github.com/shahidul034/anonymous-send-message | Python, Flask, MongoDB
+Windmill Simulation - A Computer Graphics Project Implemented in C++ | https://github.com/shahidul034/Windmill-Computer-Graphics-Project | C++, OpenGL
+Booklist - A Mobile Application for Academic Booklists at Khulna University of Engineering & Technology (KUET) across Various Departments with PDF Links to the Books | https://github.com/shahidul034/BOOKLIST_ANDROID_PROJECT | Android Studio, Java
+Statistics exam - Design and Implementation of a Statistics Exam Generation System for Students using Python and Flask with Randomized Data Generation | https://github.com/shahidul034/statistics-exam-for-student-using-flask | Python, Flask
+Smart Home Automation with IoT - Integrating NodeMCU (ESP8266) | https://github.com/shahidul034/Home-Automation-using-IoT | Python, Flask
+Counterfeit note detection - Fake Bangladeshi Banknote Detection using Convolutional Neural Networks (CNN) | https://github.com/shahidul034/Fake-Bangladeshi-note-detection-using-CNN | Convolutional Neural Networks, Python, Image processing
+Hello OS - Simple operating system project using grub and qemu | https://github.com/shahidul034/OS-project-final | C++, Grub, Qemu
+Brain Tumor Detection using Convolutional Neural Networks (CNN) - An AI-based Approach for Accurate Diagnosis | https://github.com/shahidul034/brain-tumor-detection-using-CNN | Convolutional Neural Networks, Python, Image processing
+Fake Bangladeshi Currency Detection - A Comparative Analysis using OpenCV and MATLAB | https://github.com/shahidul034/Fake-Bangladeshi-currency-detection-using-openCV | Python, OpenCV, MATLAB
+Building a Social Media Website - Harnessing HTML, CSS, JavaScript, ASP.NET, and C# for Dynamic Online Interaction | https://github.com/shahidul034/main_project-social-media-website | Asp.net, C#, HTML, CSS, JavaScript
