@@ -188,6 +188,15 @@ section .title {
     padding-bottom: 20px;
     font-family: 'Ubuntu', sans-serif;
 }
+section .title2 {
+    position: relative;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
 
 section .title::before {
     content: "";
