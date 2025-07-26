@@ -1,3 +1,60 @@
+
+fetch('data/publications_NLP.txt')
+    .then(response => response.text())
+    .then(data => {
+        document.getElementById('publications-list_nlp').innerHTML = data;
+
+        document.querySelectorAll('#publications-list_nlp li').forEach(li => {
+            li.addEventListener('click', function (e) {
+                const abstract = this.querySelector('.abstract');
+                if (abstract) abstract.style.display = abstract.style.display === 'none' ? 'block' : 'none';
+                e.stopPropagation();
+            });
+        });
+    })
+    .catch(error => {
+        console.error('Failed to load publications:', error);
+    });
+fetch('data/publications_ML.txt')
+    .then(response => response.text())
+    .then(data => {
+        document.getElementById('publications-list_ML').innerHTML = data;
+
+        // Enable abstract toggling on click
+        document.querySelectorAll('#publications-list_ML li').forEach(li => {
+            li.addEventListener('click', function (e) {
+                const abstract = this.querySelector('.abstract');
+                if (abstract) {
+                    abstract.style.display = abstract.style.display === 'none' ? 'block' : 'none';
+                }
+                e.stopPropagation();
+            });
+        });
+    })
+    .catch(error => {
+        console.error('Error loading publications:', error);
+    });
+
+fetch('data/under_review.txt')
+					.then(response => response.text())
+					.then(data => {
+						document.getElementById('under_review').innerHTML = data;
+
+						// Toggle abstract on click
+						document.querySelectorAll('#under_review li').forEach(li => {
+							li.addEventListener('click', function (e) {
+								const abstract = this.querySelector('.abstract');
+								if (abstract) {
+									abstract.style.display = abstract.style.display === 'none' ? 'block' : 'none';
+								}
+								e.stopPropagation();
+							});
+						});
+					})
+					.catch(err => {
+						console.error('Failed to load publications:', err);
+					});
+
 function myFunction() {
     var dots = document.getElementById("dots");
     var moreText = document.getElementById("more");
@@ -179,9 +236,10 @@ async function displayProjects() {
 
 
 // Call the function to load and display projects when the page loads
-window.onload = function() {
+window.onload = function () {
     Ongoing_Research();  // Display Ongoing Research
     displayProjects();         // Display My Projects
     displayUnderReview();
+    publications_NLP();  // Display NLP Publications
 }
 

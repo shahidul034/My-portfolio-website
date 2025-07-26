@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-	
+
 	<!-- Google tag (gtag.js) -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-QM6DQT7NJB"></script>
 	<script>
@@ -63,7 +63,7 @@
 					<div class="text-1">Phd Candidate, University of Massachusetts Lowell</div>
 					<div class="text-4">Former Lecturer (study leave), Khulna University of Engineering & Technology,
 						Khulna</div>
-					<div class="text-3">And I'm a <span class="typing"></span></div>
+					<!-- <div class="text-3">And I'm a <span class="typing"></span></div> -->
 					<div class="socials-container">
 						<img src="images/cv2.png" alt="My CV" class="icon"
 							onclick="window.open('https://drive.google.com/file/d/1IzIQis46eN6g39lVLbM0oInmlGDLUP_D/view?usp=sharing', '_blank')" />
@@ -100,58 +100,36 @@
 
 					<div style="color: black; font-size: 40px;">Updates</div>
 					<br>
-					<ul class="notice-list">
-						<li>📢 Webinar: "Modern NLP with Large Language Models: Techniques, Tools, and Challenges" —
-							<a href="https://drive.google.com/file/d/18Jcgt_3wVHsLB9W-2m49bOJoqSJGfBWd/view?usp=sharing"
-								style="all: unset; color: blue; text-decoration: underline;">Video Link</a> | <a
-									href="https://github.com/shahidul034/My-portfolio-website/tree/main/misc/webiner_LLM"
-									style="all: unset; color: blue; text-decoration: underline;">View Resources</a>
-							</li>
-							<li>🌐<b>Research paper accepted (CLEF 2025)</b>: Enhancing Multilingual Medical
-								Summarization via Contextual Keyword Augmentation</li>
-							<li>🌐<b>Research paper Submitted in EMNLP 2025:</b> Enhancing English-to-Spanish Medical
-								Translation of Large Language Models Using Enriched Chain-of-Dictionary Framework
-							</li>
-							<li>🌐<b>(06.11.2024) Research paper accepted(ICRPSET-2024):</b> Automated Classification of
-								Gastrointestinal Polyps from Endoscopic Images Using a Deep Learning Approach
-							</li>
-							<li>🌐<b>(24.10.2024) Revision(Data in Brief):</b> Climate Data Dynamics: A
-								High-Volume Real World Structured Weather Dataset
-							</li>
-							<li>🌐<b>(20.10.2024) Research paper revision submitted(SoftwareX): LLM based QA chatbot
-									builder</b>
-								(https://github.com/shahidul034/LLM-based-QA-chatbot-builder)</li>
-							<li>🌐<b>Research paper Submitted:</b> Deep learning models for dermoscopic skin lesion hair
-								segmentation: An extensive experimental study
-							</li>
-							<li>🌐<b>(02.08.2024) Research paper accepted(ICCA 2024):</b> Suggesting bengali words using
-								masked language model
-							</li>
-							<li>🌐<b>(29.07.2024) Revision(EMNLP 2024): </b> BCoQA: Benchmark and Resources for Bangla
-								Context-based
-								Conversational Question Answering</li>
-							<li>🌐<b>(20.07.2024) Research paper accepted(Data in Brief):</b> Bangla news article
-								dataset</li>
-							<li>🌐<b>Ongoing research(EMNLP): </b> Comparing Prompt Based and Standard Fine Tuning for
-								Bangla Text Classification</li>
-							<li>🌐<b>Ongoing research:</b> ProGAN and Diffusion-Based Hair Mask Generation</li>
-
-						</ul>
-						<br>
-						<div class="text-1">Blogs</div>
-						<ul class="notice-list">
-							<br>
-							<li>🌐Data Structures and Algorithms Lab Tutorial<a
-									href="https://github.com/shahidul034/Data-Structures-and-Algorithm-Tutorial/blob/main/README.md"
-									style="all: unset; text-decoration: none;"><b>🔗Github</b></a>
-							</li>
-							<li>🌐Database Lab Tutorial<a
-									href="https://github.com/shahidul034/Database-Lab-Tutorial/blob/main/README.md"
-									style="all: unset; text-decoration: none;"><b>🔗Github</b></a>
-							</li>
+					<div class="home-content notice-board">
+						<ul class="notice-list" id="noticeList">
+							<!-- List items will be inserted here -->
 						</ul>
 					</div>
-			
+					<script>
+						fetch('data/notices.txt')
+							.then(response => response.text())
+							.then(data => {
+								document.getElementById("noticeList").innerHTML = data;
+							})
+							.catch(error => {
+								console.error('Error loading notices:', error);
+							});
+					</script>
+					<br>
+					<div class="text-1">Blogs</div>
+					<ul class="notice-list">
+						<br>
+						<li>🌐Data Structures and Algorithms Lab Tutorial<a
+								href="https://github.com/shahidul034/Data-Structures-and-Algorithm-Tutorial/blob/main/README.md"
+								style="all: unset; text-decoration: none;"><b>🔗Github</b></a>
+						</li>
+						<li>🌐Database Lab Tutorial<a
+								href="https://github.com/shahidul034/Database-Lab-Tutorial/blob/main/README.md"
+								style="all: unset; text-decoration: none;"><b>🔗Github</b></a>
+						</li>
+					</ul>
+				</div>
+
 
 			</div>
 		</div>
@@ -253,432 +231,15 @@
 		<div class="max-width">
 			<h2 class="title">Publication and Under Review</h2>
 			<h3 class="title">Natural Language Processing</h3>
-			<ol>
-
-				<li><b>Md. Shahidul Salim</b>, Sk Imran Hossain,
-					An Applied Statistics dataset for human vs AI-generated answer classification, Data in Brief, 2024,
-					110240, ISSN 2352-3409,https://doi.org/10.1016/j.dib.2024.110240.
-					<a href="https://www.sciencedirect.com/science/article/pii/S2352340924002117" target="_blank"
-						style="color: #03bafc;">🌐paper</a>
-					<a href="https://github.com/shahidul034/An-Applied-Statistics-Dataset-for-Human-vs-AI-Generated-Answer-Classification"
-						target="_blank" style="color: #03bafc;">🔗Github</a>
-					<div class="abstract" style="display: none;">
-						<p> 🎯 <i style="color: cadetblue;">We have developed a dataset of 4231
-								question-and-answer pairs for
-								Applied Statistics, which
-								includes 116 questions selected by domain experts and answers provided by 100 students
-								and
-								50 AI-generated responses using ChatGPT.
-								Our dataset can be used to develop AI detectors for the Applied Statistics domain and to
-								evaluate existing ones. Additionally, our data collection framework can be applied to
-								other
-								domains.</i></p>
-					</div>
-				</li>
-				<br>
-				<li>Bose, D., & <b>Salim, M. S.</b> (2024). Suggesting Bengali words using masked language model. In 3rd
-					international conference on computing
-					advancements (ICCA).
-					<div class="abstract" style="display: none;">
-						<p> 🎯 <i style="color: cadetblue;">This study explores Bangla word suggestion in texts using a
-								fine-tuned Bangla-BERT model with Masked Language Modeling (MLM). While
-								transformer-based models like BERT have revolutionized natural language processing
-								(NLP), the availability of task-specific datasets, especially for word-suggesting in
-								Bangla, is limited. This research addresses this gap by employing MLM to predict Bangla
-								words. Sub-word tokenization enhances the model's ability to handle unknown words.
-								Unlike existing pretrained BanglaBERT model that uses word-piece masking, we experiment
-								with dynamic whole-word masking algorithms. Our research aims to analyze the performance
-								of the fine-tuned BanglaBERT model under different masking strategies and compare
-								results to the traditional BanglaBERT approach.</i></p>
-					</div>
-				</li>
-				<br>
-				<li>Asif Mohammed Saad, Umme Niraj Mahi, <b>Md. Shahidul Salim</b>, Sk Imran Hossain,
-					Bangla news article dataset,
-					Data in Brief,
-					2024,
-					110874,
-					ISSN 2352-3409,
-					https://doi.org/10.1016/j.dib.2024.110874.
-					<div class="abstract" style="display: none;">
-						<p> 🎯 <i style="color: cadetblue;">In this research, we present an updated standard Bangla
-								dataset
-								based on gathered Bangla news articles.
-								In total, more than 1.9 million articles from nine Bangla news websites were gathered;
-								the
-								selection process was led by a number of categories, including sports, economy,
-								politics,
-								local news, tech, tourism, entertainment, education, health, the arts, and many more.
-								The dataset per newspaper contains varying attributes, such as title, content, time,
-								tags,
-								meta, category, etc. This dataset will enable data scientists to investigate and assess
-								theories related to Bangla natural language processing.
-								Furthermore, there is a greater chance that the dataset will be utilized for
-								domain-specific
-								large language models in the context of Bangladesh, and it may be used to develop deep
-								learning and machine learning models that categorize articles according to subjects.
-							</i></p>
-					</div>
-				</li>
-
-				<br>
-				<li><b>BCoQA: Benchmark and Resources for Bangla Context-based Conversational Question
-						Answering(Submitted to EMNLP 2024(Revision completed))</b>
-					<a href="https://openreview.net/pdf?id=uZ4NJWOuwA" target="_blank"
-						style="color: #03bafc;">🌐OpenReview</a>
-
-					<div class="abstract" style="display: none;">
-						<p> 🎯 <i style="color: cadetblue;">Developing a Bangla Context-based Conversational Question
-								Answering
-								(CCQA) system faces challenges like limited domain-specific data, poor translation
-								methods,
-								and a lack of pretrained language models.
-								To tackle these issues, this work constructs a robust Bangla CCQA dataset using
-								quality-controlled machine translation and large language model-based augmentation of
-								existing English CCQA datasets.
-								The dataset is then divided into training, validation, and test splits. Various
-								sequence-to-sequence models are fine-tuned and evaluated using the train and test
-								splits,
-								with conversation history included in the input prompts to maintain context.
-							</i></p>
-					</div>
-				</li>
-
-				<br>
-				<li>Nabil, A., Das, d., <b>Salim, M. S.</b>, Arifeen, S., & Fattah, H. M. A. (2023).
-					<b>Bangla emergency post classification on social media using transformer based bert models.</b>
-					In 6th international conference on electrical information and communication technology (EICT 2023).
-					(Accepted)
-					<a href="https://drive.google.com/file/d/1i_WAnFPTzB3I_OQ4SQyRsqRi0n3RmvD2/view?usp=sharing"
-						target="_blank" style="color: #03bafc;">🌐paper</a>
-
-					<div class="abstract" style="display: none;">
-						<p> 🎯 <i style="color: cadetblue;">Text classification is one of the most
-								important tasks in Natural Language Processing. As text
-								data is growing rapidly, it needs more computational
-								power to classify the text in a big dataset. The task
-								is difficult for characteristic-rich languages like Bangla.
-								Having good-quality text data significantly affects the
-								outcome of the model that has been used to classify
-								them. Nowadays, social media can be an important
-								source of information. But there is a huge number of
-								data which are of no use. As the use of social media is
-								increasing day by day, people are posting about events
-								around their surroundings. So, it can be an important
-								propaganda of the media. In this study, various text
-								classification methods were used to classify the texts
-								in Bangla from social media, which can be categorized
-								as emergencies that may need immediate actions from
-								the government, local authority, or law enforcement or
-								even may need international attention. Therefore, 5839
-								social media posts were collected from Facebook and
-								Twitter, which were written in Bangla along with some
-								mixed English words. Then, after preprocessing, various Machine Learning models, Deep
-								Neural Network
-								models, and Transformer based models were applied to
-								classify them. Among these models, transformer-based
-								XLM-RoBERTa outperformed all the other models
-								with an F1-score of 95.25.</i></p>
-					</div>
-
-				</li>
-				<br>
-				<li><b>Salim, M. S.</b>, Murad, H., Das, D., & Ahmed, F. (2023).
-					"<b>BanglaGPT: A Generative Pretrained Transformer-Based Model for Bangla Language</b>,"
-					2023 International Conference on Information and Communication Technology for Sustainable
-					Development (ICICT4SD), Dhaka, Bangladesh, 2023,
-					pp. 56-59, doi: 10.1109/ICICT4SD59951.2023.10303383.<a
-						href="https://ieeexplore.ieee.org/document/10303383" target="_blank"
-						style="color: #03bafc;">🌐paper</a>
-
-					<!----Abstract start under hidden div-->
-
-					<div class="abstract" style="display: none;">
-						<p> 🎯 <i style="color: cadetblue;">Natural Language Processing (NLP) has entered
-								a new era with the advent
-								of pre-trained language models, paving the way for constructing robust language models.
-								Pretrained transformer-based models such as GPT-2 have become prevalent due to their
-								cutting-edge efficiency. However, these approaches rely heavily on resource-intensive
-								languages, forcing other languages to adopt multilingual frameworks (mGPT). The mGPT
-								model could perform better for low-resource languages such as Bangla because the model
-								has been trained on a diverse dataset spanning multiple languages. Recent studies show
-								that the language-specific GPT model outperforms the multilingual mGPT model. In this
-								research, we have proposed a pretrained monolingual GPT model called BanglaGPT using the
-								objective of causal language modeling (CLM). Due to the lack of available large datasets
-								for NLP tasks in Bangla, we have created a Bangla language model dataset called
-								BanglaCLM using a 26.24 GB Bangla corpus scraped from several public websites. We have
-								used a subword-based tokenization algorithm named Byte-Pair Encoding (BPE) for Bangla
-								and finally trained the Bangla-GPT2 model from scratch using the BanglaCLM dataset. Our
-								pretrained BanglaGPT provides state-of-the-art performance for Bangla text generation
-								with a perplexity score of 2.86 and a loss score of 0.45 on the test set.</i></p>
-					</div>
-
-					<!-------End of Abstract Section----------->
-				</li>
-				<br>
-				<li><b>S. Salim</b>, T. Islam, R. Zannat, N. Mia, M. Fuad and H. Murad, "<b>Towards Developing a
-						Transformer-Based Bangla Typing Error Correction Model: A Deep Learning-Based Approach</b>,"
-					2023 International Conference on Information and Communication Technology for Sustainable
-					Development (ICICT4SD), Dhaka, Bangladesh, 2023,
-					pp. 75-78, doi: 10.1109/ICICT4SD59951.2023.10303361.<a
-						href="https://ieeexplore.ieee.org/abstract/document/10303361" target="_blank"
-						style="color: #03bafc;">🌐paper</a>
-
-					<!----Abstract start under hidden div-->
-
-					<div class="abstract" style="display: none;">
-						<p> 🎯 <i style="color: cadetblue;">Despite being the sixth most widely spoken
-								language globally, the
-								Bangla language faces a lack of effective and efficient automated methods to correct
-								keyboard errors in written text. Such errors can result in communication
-								misunderstandings and misinterpretations, particularly in the digital domain, where
-								written text plays a crucial role in communication and is heavily relied upon. However,
-								no keyboard error model for the Bangla language has been found due to the lack of
-								available datasets. In this research work, we have proposed a probabilistic approach to
-								generate a synthetic Bangla keyboard typing error correction (BKTEC) dataset. By
-								utilizing the novel BKTEC dataset, we have fine-tuned a transformer-based model for
-								Keyboard error correction. After training it to convergence, the proposed model was
-								tested on a test dataset, and we discovered a word level accuracy of 88.56%.</i></p>
-					</div>
-
-					<!-------End of Abstract Section----------->
-
-				</li>
-				<br>
-				<li>T. Ahmed, S. Hossain, <b>M. S. Salim</b>, A. Anjum and K. M. Azharul Hasan, "<b>Gold Dataset for the
-						Evaluation of Bangla Stemmer</b>," 2021 5th International Conference on Electrical Information
-					and Communication Technology (EICT), Khulna, Bangladesh, 2021, pp. 1-6,
-					doi:10.1109/EICT54103.2021.9733662.<a href="https://ieeexplore.ieee.org/document/9733662"
-						target="_blank" style="color: #03bafc;">🌐paper</a>
-
-					<!----Abstract start under hidden div-->
-
-					<div class="abstract" style="display: none;">
-						<p> 🎯 <i style="color: cadetblue;">Stemming is a preprocessing task for Natural
-								Language Processing(NLP)
-								that involves normalizing inflected words representing the same concept of the original
-								word. Steaming is a process of text normalization that transforms a slated word into its
-								root form. It has a great impact in different applications in NLP and Natural Language
-								Understanding. One of the biggest challenges in Bangla stemming is to collect the rules
-								that are associated with Bangla word stemming and standard dataset for testing the
-								accuracy. This paper presents a summery of rules associated with Bangla stemming and a
-								gold standard dataset corpus which will helps to testify the stemming algorithm. We
-								verify the rules and using our rules and corpus we tested with existing Bangla stemming
-								algorithms and found that the proposed corpus makes a difference with existing
-								techniques.</i></p>
-					</div>
-
-					<!-------End of Abstract Section----------->
-
-				</li>
-				<br>
-				<li><b>M. S. Salim Shakib</b>, T. Ahmed and K. M. Azharul Hasan, "<b>Designing a Bangla Stemmer using
-						rule
-						based
-						approach</b>," 2019 International Conference on Bangla Speech and Language Processing
-					(ICBSLP), Sylhet, Bangladesh, 2019, pp. 1-4, doi: 10.1109/ICBSLP47725.2019.201533.<a
-						href="https://ieeexplore.ieee.org/document/9084043" target="_blank"
-						style="color: #03bafc;">🌐paper</a>
-					<a href="https://github.com/shahidul034/Designing-a-Bangla-Stemmer-using-rule-based-approach"
-						target="_blank" style="color: #03bafc;">🔗Github</a>
-
-
-					<!----Abstract start under hidden div-->
-
-					<div class="abstract" style="display: none;">
-						<p> 🎯 <i style="color: cadetblue;">Stemming is a preprocessing task for natural
-								language processing that
-								involves normalizing inflected words representing the same concept of the original word.
-								Steaming is a process of text normalization that has many applications. There are many
-								techniques for steaming of inflected words for different languages but very few works
-								for Bangla word steaming. Therefore, stemming Bangla word is a unsolved problem. There
-								are many different situations that can occur in Bangla language for word steaming. In
-								this paper, we present a rule based algorithm to stem Bangla words. We developed the
-								rules for infection detection for verb inflection, number inflection, and others. Using
-								our rules, we developed a system to find the root word of Bangla words and found good
-								performance. Sufficient examples are provided to explain the proposed system.</i></p>
-					</div>
-
-					<!-------End of Abstract Section----------->
-
-				</li>
+			<ol id="publications-list_nlp">
+				<!-- JS will populate this -->
 			</ol>
+
 			<h3 class="title">Machine Learning/Deep Learning</h3>
-			<ol>
-				<li>"Arifur Rahman, Sakib Zaman, Shahriar Parvej, Pintu Chandra Shill, <b>Md Shahidul Salim</b>, Dola
-					Das, "Fake News Detection: Exploring the Efficiency of Soft and Hard Voting Ensemble"
-					<!----Abstract start under hidden div-->
-
-					<div class="abstract" style="display: none;">
-						<p> 🎯 <i style="color: cadetblue;">Fake news dissemination is a critical problem, jeopardizing
-								the reliability of information and eroding public confidence. Machine
-								learning provides a solution by distinguishing between real and misleading news. In this
-								study, we utilized various classifiers such as
-								KNN, Logistic Regression, Decision Tree, LightGBM, XGBoost, Gradient Boosting, Random
-								Forest, and Naive Bayes on an opensource dataset. Tf-idf (Term frequency-inverse
-								document frequency) and Count vectorization were used for text preprocessing, and
-								soft and hard voting ensembles were applied to the best three and five models to boost
-								performance. Additionally, we employed
-								BERT (Bidirectional Encoder Representations from Transformers) and CNN (Convolutional
-								Neural Network) models with various
-								optimizers (adam, rmsprop, SGD, adadelta, and adagrad) to further improve
-								classification. The BERT model, optimized with adam,
-								achieved the highest accuracy of 99.93%, with perfect precision (100%) and high recall
-								(99.84%). Furthermore, using Count
-								vectorization for feature extraction, the soft voting ensemble of the top five models
-								(LGBM, XGB, RF, DT, LR) achieved peak
-								performance among all ensemble models, achieving 99.87% accuracy, with precision,
-								recall, f1-score, MAE, MSE, RMSE, RAE,
-								and RRSE of 99.83%, 99.88%, 99.86%, 0.13%, 0.13%, 3.66%, 0.27%, and 7.80%, respectively.
-								The exhaustive experimentation
-								confirms the applicability and efficiency of the recommended models in identifying fake
-								news.</i></p>
-					</div>
-
-					<!-------End of Abstract Section----------->
-
-				</li>
-
-				<li>"Md Zubair, Md. Nafiz Ishtiaque Mahee, Khondaker Masfiq Reza, <b>Md Shahidul Salim</b>, Nasim Ahmed,
-					"Climate data dynamics: A high-volume real world structured weather dataset"
-					<!----Abstract start under hidden div-->
-
-					<div class="abstract" style="display: none;">
-						<p> 🎯 <i style="color: cadetblue;">The dataset at hand is a unique resource, officially
-								procured from the Bangladesh Meteorological Department, the sole government institution
-								that diligently monitors weather through 35 strategically placed weather stations across
-								the nation.
-								This dataset is a treasure trove of actual data spanning several decades, from the
-								inception of each weather station to the present.
-								It has been meticulously restructured and processed into four (Rainfall, Temperature,
-								Humidity, and Sunshine) key weather parameters, presented in a highly organized and
-								accessible format.
-								This format not only facilitates its use in the machine-learning training process but
-								also opens up avenues for its application in climate research, weather forecasting, and
-								a myriad of other statistical and machine-learning applications.</i></p>
-					</div>
-
-					<!-------End of Abstract Section----------->
-
-				</li>
-
-
-				<li>"Trisha, Shahid, <b>Md. Shahidul Salim </b>, Jeba and Mahbub, "Automated Classification
-					of Gastrointestinal Polyps from Endoscopic Images Using a Deep Learning Approach" 2024
-					International Conference on Recent Progresses in Science, Engineering and Technology (Accepted)
-					<!----Abstract start under hidden div-->
-
-					<div class="abstract" style="display: none;">
-						<p> 🎯 <i style="color: cadetblue;">Research suggests that approximately 20-30% of adults aged
-								50 and older have colorectal polyps, a prevalent type of gastrointestinal (GI) polyps
-								detected during colonoscopy exams. An increased risk of cancer development is associated
-								with certain polyps. Timely identification is essential for implementing preventative
-								measures and preventing the advancement of polyps to cancer. Considering the importance
-								of early diagnosis, this study was conducted to classify GI polyps using a deep-learning
-								approach. The Gastrovision dataset was used for this study. The ResNet50 model
-								pre-trained on ImageNet was employed for transfer learning, achieving training,
-								validation, and testing accuracies of 91.99%, 92.29%, and 89%, respectively. The
-								specificity, precision, and F1-score obtained were 98.97%, 97.16%, and 81.65%,
-								respectively. A user interface has been built to assist users in selecting and
-								identifying images as part of a decision support system for categorizing GI polyps from
-								endoscopic images.</i></p>
-					</div>
-
-					<!-------End of Abstract Section----------->
-
-				</li>
-				<br>
-				<li>R. T. H. Promi, R. A. Nazri, <b>M. S. Salim</b> and S. M. T. U. Raju, "A Deep Learning Approach
-					for
-					Non-Invasive Hypertension Classification from PPG Signal," 2023 International Conference on
-					Next-Generation Computing, IoT and Machine Learning (NCIM), Gazipur, Bangladesh, 2023, pp.
-					1-5, doi: 10.1109/NCIM59001.2023.10212940.<a href="https://ieeexplore.ieee.org/document/10212940"
-						target="_blank" style="color: #03bafc;">🌐paper</a>
-					<!----Abstract start under hidden div-->
-
-					<div class="abstract" style="display: none;">
-						<p> 🎯 <i style="color: cadetblue;">Hypertension or high blood pressure is the
-								leading risk factor with the
-								largest contribution to the burden of disease and mortality. Therefore, regular blood
-								pressure (BP) checks are necessary to track hypertension and reduce risk. In light of
-								this, we have proposed a noninvasive method for hypertension detection based on
-								photoplethysmography (PPG) signals using deep learning techniques. A hybrid deep
-								learning model consisting of a Convolutional Neural Network (CNN) and Gated Recurrent
-								Unit (GRU) is introduced. First, PPG signals were acquired from 219 subjects, which
-								underwent pre-processing steps. Then, hypertension was detected with satisfactory
-								results by using our proposed model. Here, CNN is used to extract features in order to
-								work better in classification tasks. Our proposed model constructed with CNN and GRU
-								achieved an Accuracy of 85.00 %, Recall of 84.44 %, Precision of 87.77% and F1-score of
-								86.08%. Our goal is to improve the medical industry by precisely detecting
-								hypertension.</i></p>
-					</div>
-
-					<!-------End of Abstract Section----------->
-
-				</li>
-				<br>
-				<li>Hossain, L., Hossain, I., <b>Salim, M. S.</b>, Raju, S. M. T. U., & Saha, J. (2023).
-					<b>A novel technique for classification of motor imagery EEG signal based on deep learning
-						approaches.</b>
-					In Proceedings of the 2nd international conference on big data, IoT and machine learning (bim 2023).
-					(Accepted)<a
-						href="https://drive.google.com/file/d/14JswdTGWuJBS4hbygGRaEd-AeBHMVXq7/view?usp=sharing"
-						target="_blank" style="color: #03bafc;">🌐paper</a>
-
-					<!----Abstract start under hidden div-->
-
-					<div class="abstract" style="display: none;">
-						<p> 🎯 <i style="color: cadetblue;">Motor imagery classification is an important
-								area of research that aims
-								to provide insights into the neural processes underlying motor control. By analyzing the
-								patterns of brain activity related to imagined movement, researchers can better
-								understand how the brain originates and controls voluntary movements. This knowledge can
-								have significant implications for the development of novel therapies for neurological
-								diseases that impact motor performance, such as stroke and Parkinson's disease. In this
-								study, the performance of three deep learning methods, including Artificial Neural
-								Networks (ANNs), Deep Neural Networks (DNNs), and Bidirectional Long Short-Term Memory
-								(Bi-LSTM), were evaluated for the classification of motor imagery EEG data. The results
-								of the study showed that DNNs and Bi-LSTM performed better than the other algorithms
-								with Bi-LSTM obtaining the highest average accuracy 96.84%, sensitivity 95%, specificity
-								98.72%, F1-score 96.80%. This finding highlights the potential of these methods for
-								EEG-based BCI applications. Moreover, a detailed comparison of several deep learning
-								methods for the classification of motor imagery was presented, providing useful insights
-								for future research toward the development of efficient and accurate BCIs. In
-								conclusion, this study demonstrated the effectiveness of DNNs and Bi-LSTM for the
-								classification of motor imagery EEG data and their potential for use in the development
-								of BCIs for neurological diseases. These findings can guide future research in the field
-								and contribute to the development of more efficient and accurate BCIs.</i></p>
-					</div>
-
-					<!-------End of Abstract Section----------->
-				</li>
-
-				<br>
-				<li>Ashiqussalehin, M., Jahan, K., Rahaman, M., & <b>Salim, M.</b> (2022). <b>Human Abnormal Behavior
-						Detection Using Convolution Neural Network.</b> Specialusis Ugdymas, 1(43), 4076–4083.<a
-						href="http://www.sumc.lt/index.php/se/article/view/481/420" target="_blank"
-						style="color: #03bafc;">🌐paper</a>
-
-					<!----Abstract start under hidden div-->
-
-					<div class="abstract" style="display: none;">
-						<p> 🎯 <i style="color: cadetblue;">When a behavior is regarded as unusual in
-								particular circumstances, it
-								is termed abnormal. The term "abnormal behavior" has many definitions depending on the
-								situation. People sprinting in a field, for example, is regarded natural, but it appears
-								weird if it occurs in a mall. Similarly, loitering in alleyways, arguing, or pushing
-								each other in public places are all regarded weird in certain situations. Deep learning
-								has been widely used in the computer vision sector in recent years, with considerable
-								success in human activity recognition. The proposed technique helps in the detection of
-								abnormal behavior under a variety of contexts, including background changes, the number
-								of subjects (one, two people, or a crowd), and a variety of unusual human behaviors.</i>
-						</p>
-					</div>
-
-					<!-------End of Abstract Section----------->
-
-				</li>
+			<ol id="publications-list_ML">
+				<!-- Items inserted here -->
 			</ol>
+			
 
 		</div>
 
@@ -687,64 +248,7 @@
 	<section class="teams" id="underreview">
 		<div class="max-width">
 			<h2 class="title">Under Review</h2>
-			<ol>
-
-
-				<li><b>LLM based QA chatbot builder: A generative AI-based chatbot for question answering(Submitted to
-						softwareX)</b></li>
-				<i style="color: cadetblue;">📝This software describes the development of a web application
-					called
-					the LLM QA Builder, designed to streamline the creation of LLM-based interactive chatbots
-					for organizational information retrieval.
-					The application integrates various development phases including data collection and
-					preprocessing, LLM fine-tuning, testing, inference, and chat interface development. It
-					supports fine-tuning multiple LLMs such as Zephyr, Mistral, Llama-3, Phi, Flan-T5, and
-					user-provided models, with enhanced retrieval capabilities via retrieval-augmented
-					generation (RAG). It also includes an automatic web crawling RAG data scraper and a human
-					evaluation feature for model quality assessment.
-					The system's capabilities are demonstrated through a university information chatbot, with
-					comparative analysis of different LLMs using a benchmark crowd-sourced dataset.
-				</i>
-				<br>
-				<li><b>Agricultural Recommendation System based on Multivariate Weather Forecasting Model(Submitted to
-						Annals of Data Science)<a href="https://arxiv.org/abs/2401.11410" style="color: #03bafc;">
-							🌐PRE-PRINT</a></b>
-
-					<a href="https://github.com/shahidul034/Agricultural-Recommendation-System-Multivariate-Weather-Forecasting"
-						target="_blank" style="color: #03bafc;">🔗Github</a>
-				</li>
-				<i style="color: cadetblue;">📝This paper proposes a context-based crop recommendation system
-					using a weather forecast model
-					to improve farming practices in Bangladesh. The multivariate Stacked Bi-LSTM Network is used
-					for accurate weather prediction, including rainfall, temperature, humidity, and sunshine.
-					The system guides farmers in making informed decisions about planting, irrigation,
-					harvesting, and more.
-					It also alerts farmers about extreme weather conditions and provides knowledge-based crop
-					recommendations for flood and drought-prone areas.</i>
-
-
-				<br>
-				<li><b>A Suffix Independent Algorithm for Stemming Bangla Words using Finite State Transducer</b></li>
-				<i style="color: cadetblue;">📝This study proposes and evaluates a suffix-independent stemming
-					algorithm for Bangla language
-					using a finite state transducer (FST)-based framework.
-					The algorithm creates a dictionary of root words implemented as an FST, achieving high speed
-					and no memory usage for vocabulary keeping.
-					A novel stemmer dataset was developed to evaluate the algorithm's performance, resulting in
-					96.58% detection accuracy and 96.34% stemming accuracy.
-					The proposed scheme outperforms existing methods and demonstrates effectiveness through
-					experiments.</i>
-				<br>
-				<li><b>Detecting AI-Generated Assignments in Educational Evaluation: A Transformer-Based Approach</b>
-				</li>
-				<i style="color: cadetblue;">📝This research work presents a transformer-based model to detect
-					whether an assignment is
-					AI-generated or human-written.
-					The model was trained on a dataset of 5410 assignments, with 2742 being AI-generated and
-					2668 being human-written.
-					Among the explored transformer-based architectures, DistilBERT provided the highest accuracy
-					of 92%.</i>
-			</ol>
+			<ol id="under_review"></ol>
 
 		</div>
 	</section>
@@ -760,7 +264,6 @@
 		<div class="max-width">
 			<h2 class="title">My projects</h2>
 			<ol id="projects-list">
-
 			</ol>
 		</div>
 	</section>

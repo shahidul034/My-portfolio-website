@@ -1,0 +1,57 @@
+
+
+
+				<li><b>LLM based QA chatbot builder: A generative AI-based chatbot for question answering(Submitted to
+						softwareX)</b></li>
+				<i style="color: cadetblue;">📝This software describes the development of a web application
+					called
+					the LLM QA Builder, designed to streamline the creation of LLM-based interactive chatbots
+					for organizational information retrieval.
+					The application integrates various development phases including data collection and
+					preprocessing, LLM fine-tuning, testing, inference, and chat interface development. It
+					supports fine-tuning multiple LLMs such as Zephyr, Mistral, Llama-3, Phi, Flan-T5, and
+					user-provided models, with enhanced retrieval capabilities via retrieval-augmented
+					generation (RAG). It also includes an automatic web crawling RAG data scraper and a human
+					evaluation feature for model quality assessment.
+					The system's capabilities are demonstrated through a university information chatbot, with
+					comparative analysis of different LLMs using a benchmark crowd-sourced dataset.
+				</i>
+				<br>
+				<li><b>Agricultural Recommendation System based on Multivariate Weather Forecasting Model(Submitted to
+						Annals of Data Science)<a href="https://arxiv.org/abs/2401.11410" style="color: #03bafc;">
+							🌐PRE-PRINT</a></b>
+
+					<a href="https://github.com/shahidul034/Agricultural-Recommendation-System-Multivariate-Weather-Forecasting"
+						target="_blank" style="color: #03bafc;">🔗Github</a>
+				</li>
+				<i style="color: cadetblue;">📝This paper proposes a context-based crop recommendation system
+					using a weather forecast model
+					to improve farming practices in Bangladesh. The multivariate Stacked Bi-LSTM Network is used
+					for accurate weather prediction, including rainfall, temperature, humidity, and sunshine.
+					The system guides farmers in making informed decisions about planting, irrigation,
+					harvesting, and more.
+					It also alerts farmers about extreme weather conditions and provides knowledge-based crop
+					recommendations for flood and drought-prone areas.</i>
+
+
+				<br>
+				<li><b>A Suffix Independent Algorithm for Stemming Bangla Words using Finite State Transducer</b></li>
+				<i style="color: cadetblue;">📝This study proposes and evaluates a suffix-independent stemming
+					algorithm for Bangla language
+					using a finite state transducer (FST)-based framework.
+					The algorithm creates a dictionary of root words implemented as an FST, achieving high speed
+					and no memory usage for vocabulary keeping.
+					A novel stemmer dataset was developed to evaluate the algorithm's performance, resulting in
+					96.58% detection accuracy and 96.34% stemming accuracy.
+					The proposed scheme outperforms existing methods and demonstrates effectiveness through
+					experiments.</i>
+				<br>
+				<li><b>Detecting AI-Generated Assignments in Educational Evaluation: A Transformer-Based Approach</b>
+				</li>
+				<i style="color: cadetblue;">📝This research work presents a transformer-based model to detect
+					whether an assignment is
+					AI-generated or human-written.
+					The model was trained on a dataset of 5410 assignments, with 2742 being AI-generated and
+					2668 being human-written.
+					Among the explored transformer-based architectures, DistilBERT provided the highest accuracy
+					of 92%.</i>

@@ -1,0 +1,174 @@
+
+				<li>"Arifur Rahman, Sakib Zaman, Shahriar Parvej, Pintu Chandra Shill, <b>Md Shahidul Salim</b>, Dola
+					Das, "Fake News Detection: Exploring the Efficiency of Soft and Hard Voting Ensemble"
+					
+					<div class="abstract" style="display: none;">
+						<p> 🎯 <i style="color: cadetblue;">Fake news dissemination is a critical problem, jeopardizing
+								the reliability of information and eroding public confidence. Machine
+								learning provides a solution by distinguishing between real and misleading news. In this
+								study, we utilized various classifiers such as
+								KNN, Logistic Regression, Decision Tree, LightGBM, XGBoost, Gradient Boosting, Random
+								Forest, and Naive Bayes on an opensource dataset. Tf-idf (Term frequency-inverse
+								document frequency) and Count vectorization were used for text preprocessing, and
+								soft and hard voting ensembles were applied to the best three and five models to boost
+								performance. Additionally, we employed
+								BERT (Bidirectional Encoder Representations from Transformers) and CNN (Convolutional
+								Neural Network) models with various
+								optimizers (adam, rmsprop, SGD, adadelta, and adagrad) to further improve
+								classification. The BERT model, optimized with adam,
+								achieved the highest accuracy of 99.93%, with perfect precision (100%) and high recall
+								(99.84%). Furthermore, using Count
+								vectorization for feature extraction, the soft voting ensemble of the top five models
+								(LGBM, XGB, RF, DT, LR) achieved peak
+								performance among all ensemble models, achieving 99.87% accuracy, with precision,
+								recall, f1-score, MAE, MSE, RMSE, RAE,
+								and RRSE of 99.83%, 99.88%, 99.86%, 0.13%, 0.13%, 3.66%, 0.27%, and 7.80%, respectively.
+								The exhaustive experimentation
+								confirms the applicability and efficiency of the recommended models in identifying fake
+								news.</i></p>
+					</div>
+
+					
+
+				</li>
+                <br>
+
+				<li>"Md Zubair, Md. Nafiz Ishtiaque Mahee, Khondaker Masfiq Reza, <b>Md Shahidul Salim</b>, Nasim Ahmed,
+					"Climate data dynamics: A high-volume real world structured weather dataset"
+					<!----Abstract start under hidden div-->
+
+					<div class="abstract" style="display: none;">
+						<p> 🎯 <i style="color: cadetblue;">The dataset at hand is a unique resource, officially
+								procured from the Bangladesh Meteorological Department, the sole government institution
+								that diligently monitors weather through 35 strategically placed weather stations across
+								the nation.
+								This dataset is a treasure trove of actual data spanning several decades, from the
+								inception of each weather station to the present.
+								It has been meticulously restructured and processed into four (Rainfall, Temperature,
+								Humidity, and Sunshine) key weather parameters, presented in a highly organized and
+								accessible format.
+								This format not only facilitates its use in the machine-learning training process but
+								also opens up avenues for its application in climate research, weather forecasting, and
+								a myriad of other statistical and machine-learning applications.</i></p>
+					</div>
+
+					
+
+				</li>
+                <br>
+
+				<li>"Trisha, Shahid, <b>Md. Shahidul Salim </b>, Jeba and Mahbub, "Automated Classification
+					of Gastrointestinal Polyps from Endoscopic Images Using a Deep Learning Approach" 2024
+					International Conference on Recent Progresses in Science, Engineering and Technology (Accepted)
+					
+
+					<div class="abstract" style="display: none;">
+						<p> 🎯 <i style="color: cadetblue;">Research suggests that approximately 20-30% of adults aged
+								50 and older have colorectal polyps, a prevalent type of gastrointestinal (GI) polyps
+								detected during colonoscopy exams. An increased risk of cancer development is associated
+								with certain polyps. Timely identification is essential for implementing preventative
+								measures and preventing the advancement of polyps to cancer. Considering the importance
+								of early diagnosis, this study was conducted to classify GI polyps using a deep-learning
+								approach. The Gastrovision dataset was used for this study. The ResNet50 model
+								pre-trained on ImageNet was employed for transfer learning, achieving training,
+								validation, and testing accuracies of 91.99%, 92.29%, and 89%, respectively. The
+								specificity, precision, and F1-score obtained were 98.97%, 97.16%, and 81.65%,
+								respectively. A user interface has been built to assist users in selecting and
+								identifying images as part of a decision support system for categorizing GI polyps from
+								endoscopic images.</i></p>
+					</div>
+
+					
+
+				</li>
+				<br>
+				<li>R. T. H. Promi, R. A. Nazri, <b>M. S. Salim</b> and S. M. T. U. Raju, "A Deep Learning Approach
+					for
+					Non-Invasive Hypertension Classification from PPG Signal," 2023 International Conference on
+					Next-Generation Computing, IoT and Machine Learning (NCIM), Gazipur, Bangladesh, 2023, pp.
+					1-5, doi: 10.1109/NCIM59001.2023.10212940.<a href="https://ieeexplore.ieee.org/document/10212940"
+						target="_blank" style="color: #03bafc;">🌐paper</a>
+					
+
+					<div class="abstract" style="display: none;">
+						<p> 🎯 <i style="color: cadetblue;">Hypertension or high blood pressure is the
+								leading risk factor with the
+								largest contribution to the burden of disease and mortality. Therefore, regular blood
+								pressure (BP) checks are necessary to track hypertension and reduce risk. In light of
+								this, we have proposed a noninvasive method for hypertension detection based on
+								photoplethysmography (PPG) signals using deep learning techniques. A hybrid deep
+								learning model consisting of a Convolutional Neural Network (CNN) and Gated Recurrent
+								Unit (GRU) is introduced. First, PPG signals were acquired from 219 subjects, which
+								underwent pre-processing steps. Then, hypertension was detected with satisfactory
+								results by using our proposed model. Here, CNN is used to extract features in order to
+								work better in classification tasks. Our proposed model constructed with CNN and GRU
+								achieved an Accuracy of 85.00 %, Recall of 84.44 %, Precision of 87.77% and F1-score of
+								86.08%. Our goal is to improve the medical industry by precisely detecting
+								hypertension.</i></p>
+					</div>
+
+					
+
+				</li>
+				<br>
+				<li>Hossain, L., Hossain, I., <b>Salim, M. S.</b>, Raju, S. M. T. U., & Saha, J. (2023).
+					<b>A novel technique for classification of motor imagery EEG signal based on deep learning
+						approaches.</b>
+					In Proceedings of the 2nd international conference on big data, IoT and machine learning (bim 2023).
+					(Accepted)<a
+						href="https://drive.google.com/file/d/14JswdTGWuJBS4hbygGRaEd-AeBHMVXq7/view?usp=sharing"
+						target="_blank" style="color: #03bafc;">🌐paper</a>
+
+					
+
+					<div class="abstract" style="display: none;">
+						<p> 🎯 <i style="color: cadetblue;">Motor imagery classification is an important
+								area of research that aims
+								to provide insights into the neural processes underlying motor control. By analyzing the
+								patterns of brain activity related to imagined movement, researchers can better
+								understand how the brain originates and controls voluntary movements. This knowledge can
+								have significant implications for the development of novel therapies for neurological
+								diseases that impact motor performance, such as stroke and Parkinson's disease. In this
+								study, the performance of three deep learning methods, including Artificial Neural
+								Networks (ANNs), Deep Neural Networks (DNNs), and Bidirectional Long Short-Term Memory
+								(Bi-LSTM), were evaluated for the classification of motor imagery EEG data. The results
+								of the study showed that DNNs and Bi-LSTM performed better than the other algorithms
+								with Bi-LSTM obtaining the highest average accuracy 96.84%, sensitivity 95%, specificity
+								98.72%, F1-score 96.80%. This finding highlights the potential of these methods for
+								EEG-based BCI applications. Moreover, a detailed comparison of several deep learning
+								methods for the classification of motor imagery was presented, providing useful insights
+								for future research toward the development of efficient and accurate BCIs. In
+								conclusion, this study demonstrated the effectiveness of DNNs and Bi-LSTM for the
+								classification of motor imagery EEG data and their potential for use in the development
+								of BCIs for neurological diseases. These findings can guide future research in the field
+								and contribute to the development of more efficient and accurate BCIs.</i></p>
+					</div>
+
+					
+				</li>
+
+				<br>
+				<li>Ashiqussalehin, M., Jahan, K., Rahaman, M., & <b>Salim, M.</b> (2022). <b>Human Abnormal Behavior
+						Detection Using Convolution Neural Network.</b> Specialusis Ugdymas, 1(43), 4076–4083.<a
+						href="http://www.sumc.lt/index.php/se/article/view/481/420" target="_blank"
+						style="color: #03bafc;">🌐paper</a>
+
+					<!----Abstract start under hidden div-->
+
+					<div class="abstract" style="display: none;">
+						<p> 🎯 <i style="color: cadetblue;">When a behavior is regarded as unusual in
+								particular circumstances, it
+								is termed abnormal. The term "abnormal behavior" has many definitions depending on the
+								situation. People sprinting in a field, for example, is regarded natural, but it appears
+								weird if it occurs in a mall. Similarly, loitering in alleyways, arguing, or pushing
+								each other in public places are all regarded weird in certain situations. Deep learning
+								has been widely used in the computer vision sector in recent years, with considerable
+								success in human activity recognition. The proposed technique helps in the detection of
+								abnormal behavior under a variety of contexts, including background changes, the number
+								of subjects (one, two people, or a crowd), and a variety of unusual human behaviors.</i>
+						</p>
+					</div>
+
+					
+
+				</li>
