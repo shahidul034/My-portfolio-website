@@ -1,34 +1,34 @@
 <li>📢 <b>Webinar:</b> "Modern NLP with Large Language Models: Techniques, Tools, and Challenges" —
-							<a href="https://drive.google.com/file/d/18Jcgt_3wVHsLB9W-2m49bOJoqSJGfBWd/view?usp=sharing"
-								style="all: unset; color: blue; text-decoration: underline;">Video Link</a> | <a
-									href="https://github.com/shahidul034/My-portfolio-website/tree/main/misc/webiner_LLM"
-									style="all: unset; color: blue; text-decoration: underline;">View Resources</a>
-							</li>
-							<li>🌐<b>Research paper accepted (CLEF 2025)</b>: Enhancing Multilingual Medical
-								Summarization via Contextual Keyword Augmentation</li>
-							<li>🌐<b>Research paper Submitted in EMNLP 2025:</b> Enhancing English-to-Spanish Medical
-								Translation of Large Language Models Using Enriched Chain-of-Dictionary Framework
-							</li>
-							<li>🌐<b>(06.11.2024) Research paper accepted(ICRPSET-2024):</b> Automated Classification of
-								Gastrointestinal Polyps from Endoscopic Images Using a Deep Learning Approach
-							</li>
-							<li>🌐<b>(24.10.2024) Revision(Data in Brief):</b> Climate Data Dynamics: A
-								High-Volume Real World Structured Weather Dataset
-							</li>
-							<li>🌐<b>(20.10.2024) Research paper revision submitted(SoftwareX): LLM based QA chatbot
-									builder</b>
-								(https://github.com/shahidul034/LLM-based-QA-chatbot-builder)</li>
-							<li>🌐<b>Research paper Submitted:</b> Deep learning models for dermoscopic skin lesion hair
-								segmentation: An extensive experimental study
-							</li>
-							<li>🌐<b>(02.08.2024) Research paper accepted(ICCA 2024):</b> Suggesting bengali words using
-								masked language model
-							</li>
-							<li>🌐<b>(29.07.2024) Revision(EMNLP 2024): </b> BCoQA: Benchmark and Resources for Bangla
-								Context-based
-								Conversational Question Answering</li>
-							<li>🌐<b>(20.07.2024) Research paper accepted(Data in Brief):</b> Bangla news article
-								dataset</li>
-							<li>🌐<b>Ongoing research(EMNLP): </b> Comparing Prompt Based and Standard Fine Tuning for
-								Bangla Text Classification</li>
-							<li>🌐<b>Ongoing research:</b> ProGAN and Diffusion-Based Hair Mask Generation</li>
+    <a href="https://drive.google.com/file/d/18Jcgt_3wVHsLB9W-2m49bOJoqSJGfBWd/view?usp=sharing"
+        style="all: unset; color: blue; text-decoration: underline;">Video Link</a> | <a
+        href="https://github.com/shahidul034/My-portfolio-website/tree/main/misc/webiner_LLM"
+        style="all: unset; color: blue; text-decoration: underline;">View Resources</a>
+</li>
+<li>🌐<b>Research paper accepted (CLEF 2025)</b>: Enhancing Multilingual Medical
+    Summarization via Contextual Keyword Augmentation</li>
+<li>🌐<b>Research paper Submitted in EMNLP 2025:</b> Enhancing English-to-Spanish Medical
+    Translation of Large Language Models Using Enriched Chain-of-Dictionary Framework
+</li>
+<li>🌐<b>(06.11.2024) Research paper accepted(ICRPSET-2024):</b> Automated Classification of
+    Gastrointestinal Polyps from Endoscopic Images Using a Deep Learning Approach
+</li>
+<li>🌐<b>(24.10.2024) Accepted(Data in Brief):</b> Climate Data Dynamics: A
+    High-Volume Real World Structured Weather Dataset
+</li>
+<li>🌐<b>(20.10.2024) Research paper revision submitted(SoftwareX): LLM based QA chatbot
+        builder</b>
+    (https://github.com/shahidul034/LLM-based-QA-chatbot-builder)</li>
+<li>🌐<b>Research paper Submitted:</b> Deep learning models for dermoscopic skin lesion hair
+    segmentation: An extensive experimental study
+</li>
+<li>🌐<b>(02.08.2024) Research paper accepted(ICCA 2024):</b> Suggesting bengali words using
+    masked language model
+</li>
+<li>🌐<b>(29.07.2024) Revision(EMNLP 2024): </b> BCoQA: Benchmark and Resources for Bangla
+    Context-based
+    Conversational Question Answering</li>
+<li>🌐<b>(20.07.2024) Research paper accepted(Data in Brief):</b> Bangla news article
+    dataset</li>
+<li>🌐<b>Ongoing research(EMNLP): </b> Comparing Prompt Based and Standard Fine Tuning for
+    Bangla Text Classification</li>
+<li>🌐<b>Ongoing research:</b> ProGAN and Diffusion-Based Hair Mask Generation</li>
